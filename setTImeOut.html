@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The setTimeout() Method</h2>
+
+<p>Wait 5 seconds for the greeting:</p>
+
+<h2 id="demo"></h2>
+
+<script>
+const greetingsTime = () => {
+setTimeout(()=>{
+	document.getElementById('demo').innerHTML = "Hello"
+}, 2500);
+}
+
+greetingsTime();
+</script>
+
+</body>
+</html>
