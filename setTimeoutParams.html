@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The setTimeout() Method</h2>
+
+<p>In this example, we display the parameters passed to myFunc() (does not work in IE9 and earlier).</p>
+
+<p id="demo"></p>
+
+<script>
+setTimeout(myFunc, 2000, "Asif", "Sakib");
+
+function myFunc(p1, p2) {
+  document.getElementById("demo").innerHTML = "Parameters: " + p1 + " " + p2;
+}
+</script>
+
+</body>
+</html>
