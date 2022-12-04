@@ -24,3 +24,11 @@ function startTime() {
   setTimeout(function(){startTime()}, 1000);
 }
 ```
+
+### You cannot re-declare a variable declared with let or const.
+
+This will not work:
+```bash
+let carName = "Volvo";
+let carName;
+```
