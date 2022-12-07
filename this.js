@@ -19,6 +19,14 @@ const person = {
   
   // Display data from the object:
   console.log(person.fullName())
+  console.log(person.fullName)
 
-    }
+}
+
+{
+    x = new String();        // Declares x as a String object
+    y = new Number();        // Declares y as a Number object
+    z = new Boolean();
+    console.log(typeof x, typeof y, typeof z); 
+}
 
