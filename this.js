@@ -30,3 +30,9 @@ const person = {
     console.log(typeof x, typeof y, typeof z); 
 }
 
+
+{
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let length = text.length;
+    console.log(length)
+}
