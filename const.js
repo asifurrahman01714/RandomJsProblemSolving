@@ -18,3 +18,16 @@ const newFriends = [...friends, 'arif'];
 console.log(newFriends);
 newFriends.push("rakib");
 console.log(newFriends)
+
+
+// Const block scope
+
+const x = 10;
+console.log(x)
+// Here x is 10
+
+{
+const x = 2;
+console.log(x)
+// Here x is 2
+}
