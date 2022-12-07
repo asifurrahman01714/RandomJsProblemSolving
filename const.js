@@ -32,7 +32,7 @@ console.log(x)
 // Here x is 2
 }
 
-// Redeclaration a const variable in various block scope is allowed
+// Re-declaration a const variable in various block scope is allowed
 
 const y = 2;
 console.log(y);       // Allowed
