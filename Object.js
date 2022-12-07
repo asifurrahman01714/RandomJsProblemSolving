@@ -18,3 +18,23 @@ const person = {
     console.log(person.firstName + " " + person.lastName);
     console.log(person["firstName"] + " " + person["lastName"]);
 }
+
+// A method is a function stored as a property.
+{
+    const person = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function xz() {
+          return this.firstName + " " + this.lastName;
+        },
+        anotherFullName : function aFullName () {
+            return this.firstName + " " + this.lastName;
+          }
+      };
+
+    console.log(person["fullName"])
+    console.log(person.fullName)
+    console.log(person.fullName())
+    console.log(person.anotherFullName())
+}
