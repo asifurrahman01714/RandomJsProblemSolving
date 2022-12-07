@@ -31,3 +31,18 @@ const x = 2;
 console.log(x)
 // Here x is 2
 }
+
+// Redeclaration a const variable in various block scope is allowed
+
+const y = 2;
+console.log(y);       // Allowed
+
+{
+  const y = 3;
+  console.log(y);    // Allowed
+}
+
+{
+  const y = 4;
+  console.log(y);    // Allowed
+}
