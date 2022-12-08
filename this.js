@@ -57,4 +57,5 @@ const person = {
     const x = {name: "asif"}
     const y = {name: "asif"}
     console.log(x==y); // string and number can be checked as true false. but object not
+    console.log(x===y); // Comparing two JavaScript objects always returns false.
 }
