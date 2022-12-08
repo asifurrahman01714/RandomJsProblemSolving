@@ -36,3 +36,25 @@ const person = {
     let length = text.length;
     console.log(length)
 }
+// js escape character
+{
+    let text = "We are the so-called \"Vikings\" from the north.";
+    console.log(text);
+    console.log(text.length);
+}
+{
+    let x = "John";        // x is a string
+    let y = new String("John");  // y is an object
+    console.log((x==y))
+    console.log((x===y))
+}
+{
+    let x = new String("John");  // x is an object
+    let y = new String("John");  // y is an object
+    console.log((x==y))
+}
+{
+    const x = {name: "asif"}
+    const y = {name: "asif"}
+    console.log(x==y); // string and number can be checked as true false. but object not
+}
