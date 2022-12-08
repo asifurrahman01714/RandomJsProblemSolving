@@ -38,3 +38,8 @@ const person = {
     console.log(person.fullName())
     console.log(person.anotherFullName())
 }
+{
+  let text1 = "     Hello World!     ";
+  let text2 = text1.trimStart();
+  console.log(text2);
+}
