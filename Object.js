@@ -48,3 +48,8 @@ const person = {
   let text2 = text1.trimEnd();
   console.log(text2)
 }
+{
+  let text = "5";
+  let padded = text.padStart(4,"y");
+  console.log(padded);
+}
