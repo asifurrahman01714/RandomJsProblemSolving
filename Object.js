@@ -77,6 +77,14 @@ const person = {
   console.log(text)
   console.log(text[0])
   console.log(text.split(""))
+  const x = "5";
+  const y = "4";
+  const z = "6";
+  console.log("5" * "4" - "6")
+  console.log(x * y - z)
+
+  const result = "5" * "4" - "6";
+  console.log(result);
   /*
   text.split(",")    // Split on commas
   text.split(" ")    // Split on spaces
