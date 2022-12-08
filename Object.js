@@ -53,3 +53,34 @@ const person = {
   let padded = text.padStart(4,"y");
   console.log(padded);
 }
+{
+  let numb = 5;
+  let text = numb.toString();
+  let padded = text.padStart(4,"0");
+  console.log(padded)
+}
+{
+  let text = "5";
+  let padded = text.padEnd(4,"0");
+  console.log(padded)
+}
+{
+  let text = "HELLO WORLD";
+  let char = text.charAt(0);
+  console.log(char);
+  console.log(text.charCodeAt(0));
+}
+
+{
+  let text = "HELLO WORLD";
+  text[0] = "A"; // no work no error
+  console.log(text)
+  console.log(text[0])
+  console.log(text.split(""))
+  /*
+  text.split(",")    // Split on commas
+  text.split(" ")    // Split on spaces
+  text.split("|") 
+  */
+
+}
