@@ -43,10 +43,25 @@
     console.log(text.match(/ain/gi).length);
 }
 {
-    let text = "Hello world, welcome to the universe.";
+    let text = "Hello world, welcome to the universe";
     console.log(text.includes("world"));
     console.log(text.startsWith("Hello"));
     console.log(text.startsWith("world",6)); // the world is started from the 6 position
     console.log(text.includes("world", 12)) // here 12 is the position
+    console.log(text.endsWith("universe")) // here 12 is the position
+    console.log(text.endsWith("world",11)) // here 12 is the position
 
+}
+{
+    let text = "I love cats. Cats are very easy to love. Cats are very popular."
+    const iterator = text.matchAll(/Cats/g);      
+    console.log(Array.from(iterator));
+}
+{
+    let price = 10;
+    let VAT = 0.25;
+    console.log(`${price}`);
+    console.log(`${(price * VAT)}`);
+    let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+    console.log(total);
 }
