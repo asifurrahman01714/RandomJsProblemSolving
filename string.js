@@ -65,3 +65,8 @@
     let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
     console.log(total);
 }
+{
+    let x = '999999999999999';
+    console.log(x.length, parseInt(x))
+   
+}
