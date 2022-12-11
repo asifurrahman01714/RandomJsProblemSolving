@@ -79,3 +79,12 @@
     console.log(x)
     console.log(x.toFixed(2))
 }
+{
+    let x = 100 / "10";
+    console.log(x);
+}
+{
+    let x = 100 / "Apple";
+    console.log(isNaN(x));
+    console.log(x);
+}
