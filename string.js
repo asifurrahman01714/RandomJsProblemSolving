@@ -74,3 +74,8 @@
     let x = 100 / "Apple";
     console.log(x);
 }
+{
+    let x = 0.2 + 0.1;
+    console.log(x)
+    console.log(x.toFixed(2))
+}
