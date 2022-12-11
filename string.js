@@ -70,3 +70,7 @@
     console.log(x.length, parseInt(x))
    
 }
+{
+    let x = 100 / "Apple";
+    console.log(x);
+}
