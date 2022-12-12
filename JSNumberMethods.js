@@ -38,3 +38,14 @@
     console.log(Number(" 10  "));
     console.log(Number("John"))
 }
+{
+    // Number method is used to convert a date string to number
+    console.log(Number(new Date("1970-01-01")));
+
+    // The Number() method returns the number of milliseconds
+    console.log(Number(new Date("1970-01-02")));
+    console.log(parseInt("10 20 30"))
+    console.log(parseInt("10"))
+    console.log(parseInt("10 years"))
+    console.log(parseInt("years 10"));
+}
