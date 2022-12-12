@@ -16,12 +16,16 @@
 
     let html = `<h2>${header}</h2><ul>`;
 
-    for (const x of tags) {
-    html += `<li>${x}</li>`;
+
+    for (const element of tags) {
+        // const element = tags[i];
+        // html = `<b>${html} ${element}</b>`;
+        html+= `<li><b>${element}</b></li>`;
     }
 
-    html += `</ul>`;
-    document.getElementById("demo").innerHTML = html;
+    
+    const demo = document.getElementById('demo');
+    demo.innerHTML= html;
 </script>
 
 </body>

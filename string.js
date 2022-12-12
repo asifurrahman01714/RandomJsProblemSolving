@@ -87,4 +87,12 @@
     let x = 100 / "Apple";
     console.log(isNaN(x));
     console.log(x);
+    console.log(typeof NaN)
+}
+{
+    const friends = ['asif', 'sakib', 'arif'];
+    for (let i = 0; i < friends.length; i++) {
+        const element = friends[i];
+        console.log(element);
+    }
 }
