@@ -20,5 +20,14 @@
     console.log(x.toPrecision(2))
     console.log(x.toPrecision(3))
     console.log(x.toPrecision(4))
-    console.log(x.toPrecision(5))
+    console.log(x.toPrecision(5));
+
+    console.log(x.valueOf());
+    const objectNumber = new Number(x);
+    console.log(objectNumber);
+    console.log(typeof objectNumber);
+    const y = objectNumber.valueOf();
+    console.log(objectNumber.valueOf())
+    console.log(y)
+    console.log(typeof objectNumber.valueOf())
 }

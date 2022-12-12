@@ -13,6 +13,7 @@ while (myNumber != Infinity) {
     let x = 123;
     let y = new Number(123);
     console.log(y)
+    console.log(y.valueOf());
 }
 {
     let x = "5";
