@@ -28,5 +28,26 @@ while (myNumber != Infinity) {
     const num = 5n;
     console.log(num);
     console.log(typeof num);
-    console.log(num / 2); //Cannot mix BigInt and other types, use explicit conversions
+     //Cannot mix BigInt and other types, use explicit conversions
+     console.log(9007199254740992 === 9007199254740993);
+     {
+        let x = 5n;
+        let y = Number(x) / 2;
+        console.log(y)
+     }
+}
+{
+    let  x = Number.MAX_SAFE_INTEGER;
+    console.log(x);
+}
+{
+    let  x = Number.MIN_SAFE_INTEGER;
+    console.log(x)
+}
+{
+    const result = Number.isInteger(10);
+    console.log(result)
+    console.log( Number.isInteger(10.5));
+    console.log(Number.isSafeInteger(10))
+    console.log(Number.isSafeInteger(12345678901234567890))
 }
