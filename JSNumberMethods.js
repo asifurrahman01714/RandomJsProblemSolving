@@ -31,3 +31,10 @@
     console.log(y)
     console.log(typeof objectNumber.valueOf())
 }
+{
+    // NBumber method
+    console.log(Number(true))
+    console.log(Number(false))
+    console.log(Number(" 10  "));
+    console.log(Number("John"))
+}
