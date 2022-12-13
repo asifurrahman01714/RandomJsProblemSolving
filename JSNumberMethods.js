@@ -48,4 +48,24 @@
     console.log(parseInt("10"))
     console.log(parseInt("10 years"))
     console.log(parseInt("years 10"));
+    console.log(parseFloat("10.33"))
+    console.log(parseInt("10.22234234234"));
+
+    const x = "123";
+    const y = Number(x);
+    console.log(typeof y);
+}
+{
+    console.log(Number.parseInt("23"))
+    console.log(typeof Number.parseInt("23"))
+    console.log( parseInt("23"))
+    console.log( Number("23"))
+    console.log( typeof Number("23"))
+}
+{
+    console.log(Number());
+    console.log(Number(" "));
+    console.log(Number(NaN));
+    console.log(Number(null));
+    console.log(parseInt(null));
 }
