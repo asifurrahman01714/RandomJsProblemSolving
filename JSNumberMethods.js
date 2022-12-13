@@ -69,3 +69,7 @@
     console.log(Number(null));
     console.log(parseInt(null));
 }
+{
+    console.log(Number.isInteger(10))
+    console.log(Number.isInteger(10.5))
+}
