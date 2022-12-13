@@ -73,3 +73,10 @@
     console.log(Number.isInteger(10))
     console.log(Number.isInteger(10.5))
 }
+{
+    console.log(Number.isSafeInteger(10232323232323232));
+    console.log(Number.isSafeInteger(10));
+}
+{
+    console.log(Number.parseInt(2))
+}
