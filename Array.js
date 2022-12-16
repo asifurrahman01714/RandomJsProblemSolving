@@ -70,6 +70,7 @@
     fruits.push("Lemon"); 
     console.log(fruits);
     console.log(Array.isArray(fruits));
+    console.log(fruits instanceof Array)
 }
 
 // In JavaScript, arrays use numbered indexes.  
@@ -90,5 +91,10 @@
     person["firstName"] = "Asif";
     person.lastName = "Asif";
     console.log(person);
+    console.log(person instanceof Array) //The instanceof operator returns true if an object is created by a given constructor:
+    console.log(person instanceof Object)
+    console.log(person instanceof String)
+    console.log(person instanceof Number)
+    console.log(person instanceof Boolean)
     
 }
