@@ -55,3 +55,38 @@
     }
     console.log(text)
 }
+{
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits[6] = "Lemon"; 
+    console.log(fruits);
+}
+{
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits[fruits.length] = "Lemon"; 
+    console.log(fruits);
+}
+{
+    const fruits = ["Banana", "Orange", "Apple"];
+    fruits.push("Lemon"); 
+    console.log(fruits);
+}
+
+// In JavaScript, arrays use numbered indexes.  
+// In JavaScript, objects use named indexes.
+{
+    const person = [];
+    person["firstName"] = "John";
+    person["lastName"] = "Doe";
+    person["age"] = 46;
+    console.log(person);
+    console.log(person.length);
+    console.log(person[0]);
+    console.log(person.firstName);
+    console.log(typeof person)
+}
+{
+    const person = {};
+    person["firstName"] = "Asif";
+    person.lastName = "Asif";
+    console.log(person);
+}
