@@ -69,6 +69,7 @@
     const fruits = ["Banana", "Orange", "Apple"];
     fruits.push("Lemon"); 
     console.log(fruits);
+    console.log(Array.isArray(fruits));
 }
 
 // In JavaScript, arrays use numbered indexes.  
@@ -89,4 +90,5 @@
     person["firstName"] = "Asif";
     person.lastName = "Asif";
     console.log(person);
+    
 }
